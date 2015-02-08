@@ -1,5 +1,5 @@
 {
-  "name": "video-game-library",
+  "name": "video-games-library",
   "scripts": {
     "build": "browserify www/app/main.js -o www/app.js",
     "watch": "watchify www/app/main.js -o www/app.js --debug --verbose",
