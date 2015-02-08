@@ -1,0 +1,12 @@
+{
+  "name": "video-game-library",
+  "scripts": {
+    "build": "browserify www/app/main.js -o www/app.js",
+    "watch": "watchify www/app/main.js -o www/app.js --debug --verbose",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.11.2",
+    "react": "^0.12.2"
+  }
+}
